@@ -1,0 +1,46 @@
+\documentclass{grattanAlphaXe}
+\input{preamble} %% HP
+
+% This is a comment (will not appear in the report output)
+
+% Switch on the following command to create a watermark (i.e. remove the '%' sign)
+%\renewcommand{\classification}{\normalfont\textbf{\textcolor{red}{\hspace{10cm} DRAFT -- NOT FOR REDISTRIBUTION}}}
+
+% Appears on the front page
+\title{Dynamism}
+\subtitle{Keeping Australia out of trouble}
+
+\author{Jim Minifie}
+
+\addbibresource{bibliography.bib}
+
+% Words/acronyms that should not be hyphenated:
+\hyphenation{Grattan Institute Figure}
+
+\acknowledgements{\input acknowledgements}
+
+\begin{document}
+
+\input overview
+
+\input recommendations
+
+\contentspage
+
+\listoftodos[List of Comments]
+
+\input chap1
+
+\input chap2
+
+\input chap3
+
+\input chap4
+
+\input instructions
+
+\input unused
+
+\printbibliography[title=References]
+
+\end{document}
